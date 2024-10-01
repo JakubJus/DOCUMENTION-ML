@@ -13,7 +13,7 @@ Currently, no specific installation steps are provided. Please ensure you have t
 Run the model with:
 ```bash
 python main.py
-
+```
 ## Contributors
 ## Contributors
 - [Jakub Jus](https://github.com/JakubJus)

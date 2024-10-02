@@ -13,3 +13,7 @@ Currently, no specific installation steps are provided. Please ensure you have t
 - [Kaito  ](https://github.com/Kaito-gif2003)
 
 Contributions are welcome! Please open an issue or submit a pull request for collaboration.
+
+
+Examintator:
+- [Jonas Willen](https://github.com/JakubJus)

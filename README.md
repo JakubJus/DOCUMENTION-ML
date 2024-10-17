@@ -4,7 +4,7 @@
 DOCUMENTION-ML is a machine learning project focused on detecting human movements, specifically identifying whether a person is falling, standing, sitting, or walking. It uses the nRF52840 microcontroller and various sensors to provide real-time monitoring, enhancing safety for the elderly and those with mobility challenges.
 
 ## Installation Instructions
-Currently, no specific installation steps are provided. Please ensure you have the necessary dependencies installed based on your project requirements. Use .git to install the project.
+To install go to BLE
 
 ## Contributors
 - [Jakub Jus](https://github.com/JakubJus)

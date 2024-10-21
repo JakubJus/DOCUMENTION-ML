@@ -18,3 +18,6 @@ This project guides you through using the **Seeed Studio XIAO nRF52840 Sense** f
 To install the Edge Impulse CLI, run:
 ```bash
 npm install -g edge-impulse-cli
+
+
+

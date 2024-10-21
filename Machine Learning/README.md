@@ -19,5 +19,5 @@ To install the Edge Impulse CLI, run:
 ```bash
 npm install -g edge-impulse-cli
 
-
-
+run :
+edge-impulse-data-forwarder

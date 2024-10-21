@@ -7,8 +7,6 @@ This project demonstrates how to integrate machine learning models into an Ardui
 - [Installation](#installation)
 - [Usage](#usage)
 - [Workflow](#workflow)
-- [Pushing Data](#pushing-data)
-- [Retrieving Data](#retrieving-data)
 - [Contributors](#contributors)
 
 ## Installation
@@ -17,15 +15,34 @@ Follow these steps to set up the project on your system:
 ### Clone the repository:
 ```bash
 git clone https://github.com/JakubJus/DOCUMENTION-ML.git
+```
 
 ### Install the necessary libraries:
 Install Arduino IDE and required dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Description
-DOCUMENTION-ML is a machine learning project focused on detecting human movements, specifically identifying whether a person is falling, standing, sitting, or walking. It uses the nRF52840 microcontroller and various sensors to provide real-time monitoring, enhancing safety for the elderly and those with mobility challenges.
+### Hardware setup:
+Push down the resetbutton to put the device in boot-mode.
+Flash the device with the XIAOEI.ino file located in the /Arduino directory.
 
-## Installation Instructions
-To install go to [BLE](https://github.com/JakubJus/DOCUMENTION-ML/tree/main/BLE)
+## Usage
+Run the project with the following steps:
+
+- Arduino Setup: Flash the Arduino device with the ML model.
+- Deploy ML Model: Use Edge Impulse to deploy the trained model to the Arduino board.
+- Data Interaction: Collect data and run it through the Arduino model for real-time predictions.
+## Workflow
+This section details the additional steps taken by the group after the seed instructions:
+
+1 Train ML Model:
+  * Upload training data to Edge Impulse and fine-tune it based on requirements.
+  *  Export the model for Arduino (.ino format).
+2 Arduino Integration:
+  * Push the ML model to the Arduino and test it.
+3 ML Webpage Setup:
+  * Push data from Arduino to the web-based ML page for further analysis.
 
 ## Contributors
 - [Jakub Jus](https://github.com/JakubJus)

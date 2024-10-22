@@ -19,9 +19,7 @@ git clone https://github.com/JakubJus/DOCUMENTION-ML.git
 
 ### Install the necessary libraries:
 Install Arduino IDE and required dependencies:
-```bash
-pip install -r requirements.txt
-```
+Go to the specific directory youre intressted in and read the Readmei the directry for the necessary libaries, a good starting point is Machine learing directory. 
 
 ### Hardware setup:
 Push down the resetbutton to put the device in boot-mode.
